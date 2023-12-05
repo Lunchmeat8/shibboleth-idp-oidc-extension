@@ -1,3 +1,35 @@
+!-- See LICENSE.txt file in the root directory of this repository for the copyright/license information. -->
+
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "broque111091@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2600:1012:b10d:5729:0:57:543:6d01",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (X11; Linux x86_64)(KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "bigquery.googleapis.com",
+      "methodName": "google.cloud.bigquery.v2.DatasetService.InsertDataset",
+      "authorizationInfo": [
+        {
+          "resource": "projects/github-google shibboleth-idp-oidc-extension",
+          "permission": "bigquery.datasets.create",
+          "granted": true,
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/shibboleth-idp-oidc-extension/datasets/Satori_1",
+      "metadata": {
+        "datasetCreation": …
+
+
+
 <!-- See LICENSE.txt file in the root directory of this repository for the copyright/license information. -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
